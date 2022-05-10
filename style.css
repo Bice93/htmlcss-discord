@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgb(113, 208, 249);
+    background-color: #404eed;
     padding: 10px;
 }
 
@@ -16,43 +16,61 @@ header{
 }
 
 .logo, .link, .login{
-    background-color: rgb(252, 252, 123);
-    border: 1px dashed black;
     padding: 5px;
-    line-height: 28px;
 }
 
 .logo{
-    flex-grow: 1;
+    width: 20%;
 }
 
+
 .link{
-    flex-grow: 3;
+    width: 60%;
     text-align: center; 
 }
 
 a{
     text-decoration: none;
-    color: black;
-    padding: 5px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 .login{
-    flex-grow: 1;
+    width: 20%;
     text-align: end;
 }
 
-.section1{
-    background-color: rgb(1, 1, 205);
+.text{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.section1 {
+    background-image: url("/img/jumbo.png");
+    background-color: rgb(164, 164, 224);
     padding: 20px;
 }
 
 .section1 > .box{
     width: 600px;
-    height: 200px;
-    background-color: rgb(249, 88, 201);
     margin: auto;
     border: 1px dashed black;
+    text-align: center;
+}
+
+.box > .mac{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.box > .browser{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
 }
 
 .subsection2{
